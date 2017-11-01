@@ -78,23 +78,6 @@ public class Ipv4Client {
 
             }
 
-//            for (int i =0; i < totalPackets; i++) {
-//                //get packet size
-//                int packetSize = 20 + (int)java.lang.Math.pow(2,(i+1));
-//                byte[] packet = new byte[packetSize];
-//
-//                for (int j = 0; j<packetSize;j++) {
-//                    packet[j] = (j < 20 ? header[j]: 0);
-//                }
-///
-//                //print packet number
-//                System.out.println("Packet length " + packet.length);
-//                //send packet
-//                os.write(packet);
-//                //print whether or not guess is correct
-//                System.out.println(br.readLine());
-//            }
-
         }catch(IOException e){
             System.out.println(e);
         }catch (Error e){
